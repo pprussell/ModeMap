@@ -1,4 +1,4 @@
-# ModeMap_PostProcess.py by J. M. Skelton
+#!/usr/bin/env python
 
 
 import argparse;
@@ -8,7 +8,6 @@ import csv;
 import numpy as np;
 
 from scipy.interpolate import interp1d, interp2d;
-
 
 # Function to read the "ModeMap.csv" files produced by ModeMap.py.
 
