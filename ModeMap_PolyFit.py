@@ -307,3 +307,5 @@ for i, (x, y) in enumerate(dataSets):
     plt.savefig(fileName, format = 'png', dpi = 300);
 
     print("");
+
+exit()

@@ -261,3 +261,5 @@ elif args.MapMode == '2D':
                         for column in dataColumns
                         ]
                     );
+
+exit()

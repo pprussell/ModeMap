@@ -333,3 +333,5 @@ elif args.MapMode == '2D':
 for tempFile in "MPOSCAR", "MPOSCAR-001", "MPOSCAR-002", "MPOSCAR-orig":
     if os.path.isfile(tempFile):
         os.remove(tempFile);
+
+exit()

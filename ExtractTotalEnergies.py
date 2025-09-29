@@ -51,3 +51,5 @@ for row in sorted(data):
 	outputWriterCSV.writerow(row);
 
 outputWriter.close();
+
+exit()

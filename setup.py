@@ -12,7 +12,9 @@ setup(
     version="0.0.1",
     install_requires=[
         "scipy",
-        "phonopy",
+        "phonopy==2.30.0",
+        "pandas",
+        "matplotlib"
     ],
     license="MIT",
     entry_points={
@@ -20,6 +22,7 @@ setup(
             'ModeMap=ModeMap',
             'ExtractTotalEnergies=ExtractTotalEnergies',
             'ModeMap_PostProcess=ModeMap_PostProcess',
-            'ModeMap_PolyFit=ModeMap_PolyFit'
+            'ModeMap_PolyFit=ModeMap_PolyFit',
+            "ModeMap_Plot=ModeMap_Plot"
         ],
 })
